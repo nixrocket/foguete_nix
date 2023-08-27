@@ -1,3 +1,3 @@
 # foguete_nix
 Our website
-http://nixrocket.github.io/foguetenix/foguetenix_apw
+https://nixrocket.github.io/foguete_nix/

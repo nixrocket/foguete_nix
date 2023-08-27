@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+}
+
+.container{
+    text-align: justify;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    padding: 2em;
+  }
+
+  @media (max-width: 990px) {
+    .container{
+      width: 100%;
+    }
+  }
+  
+  .banner{
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.logo_img{
+    width: 20%;
+    float: left;
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 990;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 3rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.video
+{
+  text-align: center;
+  padding-top: 2%;
+  width: 100%;
+  height: 35em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-right: 0%;
+    padding-right: 0%;
+    overflow: hidden;
+    background-color: black;
+    width: 100%
+
+    
+}
+
+nav ul li{
+  float: left;
+  font-family: 'ADLaM Display', cursive;
+  font-size: 15px;
+}
+
+nav ul li a{
+    border-radius: 5%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    nav ul{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    nav ul li a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    nav ul li a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 1em;
+  }
+
+  h1 a{
+    border-radius: 5%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+h1 a:hover{
+    background-color: white;
+    color: black;
+}
+      
+  h2 {
+    font-size: 2em;
+    text-align: left;
+    color: black;
+    font-family: 'Bradley Gratis', sans-serif;
+    text-align: center;
+  }
+    
+  h3{
+    font-size: 1.3em;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+  }
+    
+  h4{
+    font-size: 1em;
+    color:#000;
+    font-family: 'Poppins', sans-serif;
+  }
+    
+  p{
+    color: black;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1em;
+    text-align: left;
+    line-height: 1.5em;
+  }
+    
+  ul{
+    padding: 1%;
+    list-style-image: url(../img/vampire.png);
+    line-height: 1.5em;
+   }
+    
+  li{
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .integrantes__foto
+  {
+    width: 30%;
+  }
+
+  figcaption
+  {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer
+  {
+    color: #FFF;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+    }
+  
+  
